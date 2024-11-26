@@ -7,8 +7,8 @@ namespace MathGame
         // Initialise gameHistory a List collection
         public static List<string> gameHistory = new List<string>();
 
-        // Initialise score
-        internal static int score = 0;
+        // Declare score variable
+        internal static int score;
 
         internal static void PlayGame(Func<int, int, int> OperationFunction, string operationSign)
         {
